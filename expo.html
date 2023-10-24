@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body class="expo">
+    <img src="expo.jpg" alt=""><br>
+    <h3>Project Expo</h3>
+    <i class="font">Event Date: 12 August 2023 <br>Time: 3:00pm</i>
+    <p><b>Get ready to witness a showcase of innovation and creativity at our college event's Project Expo!</b><br> 
+        The Project Expo is a platform that celebrates the ingenuity of our students as they present their cutting-edge projects to the world. <br> 
+        From technological innovations and sustainable solutions to artistic endeavors, our Expo features a diverse array of projects that highlight the hard work and dedication of our talented participants. <br>
+        Visitors will have the opportunity to engage with the creators, explore their projects up close, and gain insights into the future of various industries. <br>
+        Whether you're an industry professional, a fellow student, or simply curious about the latest advancements, our Project Expo promises an inspiring and thought-provoking experience. <br>
+        <i class="font">Join us in celebrating the power of ideas and the transformative potential of innovation at this exciting event!</i></p>
+        <form action="tech.html">
+            <button>Home Page</button>
+        </form>
+        <script>
+            const title = document.querySelector("h3");
+            const originalColor = getComputedStyle(title).color;
+            title.addEventListener("mouseover", function () {
+                title.style.color = "blue"; 
+            });
+            title.addEventListener("mouseout", function () {
+                title.style.color = originalColor;
+            });
+        </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body class="ctf">
+    <img src="ctf.jpg" alt="">
+    <h3>Capture The Flag</h3>
+    <i class="font">Event Date: 12 August 2023 <br>Time: 12:00pm</i>
+    <p>
+        <b>Get ready to unleash your inner detective and embark on an exciting cybersecurity adventure at our upcoming college event!</b><br>
+        Our captivating Capture the Flag (CTF) competition is set to challenge your problem-solving skills, critical thinking, and cybersecurity process. <br>
+        Join us for a thrilling experience where participants will navigate a series of engaging challenges, ranging from cryptography and web security to reverse engineering and more. <br>
+        Whether you're a cybersecurity enthusiast or simply curious about the digital world, our CTF event welcomes participants of all backgrounds. <br>
+        Engage in friendly competition, collaborate with fellow enthusiasts, and sharpen your cybersecurity skills in a dynamic and supportive environment. <br>
+        <i class="font">Don't miss this opportunity to showcase your talents, learn from industry experts, and become part of a vibrant community passionate about cybersecurity. 
+        Are you up for the challenge? Join us at the CTF event and be prepared to decode, hack, and conquer!</i>
+    </p>
+    <form action="tech.html">
+        <button>Home Page</button>
+    </form>
+    <script>
+        const title = document.querySelector("h3");
+        const originalColor = getComputedStyle(title).color;
+        title.addEventListener("mouseover", function () {
+            title.style.color = "blue"; 
+        });
+        title.addEventListener("mouseout", function () {
+            title.style.color = originalColor;
+        });
+    </script>
+</body>
+</html>

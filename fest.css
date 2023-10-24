@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #f39c12;
+}
+.eventtitle {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.logo {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    opacity: 0.7;
+    transition: opacity 0.50s;
+}
+.logo:hover {
+    opacity: 1;
+}
+.eventdate {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1175px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.7;
+    transition: opacity 0.50s;
+}
+.eventdate:hover {
+    opacity: 1;
+    color: blue;
+    background-color: white;
+}
+.aboutevent {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: 320px;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 650px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: background-color, color 0.50s;
+}
+.aboutevent:hover {
+    color: rgb(56, 108, 210);
+    background-color: black;
+}
+#event {
+    font-size: 50px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-left: 50px;
+    display: block;
+    width: 140px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+    transition: color, background-color 0.50s;
+    margin-bottom: 20px;
+}
+.detail{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    text-align: left;
+    margin-left: 3px;
+    display: block;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+    transition: color, background-color 0.50s;
+    margin-bottom: 20px;
+}
+.detail:hover {
+    opacity: 1;
+    color: blue;
+    background-color: white;
+}
+#event:hover {
+    color: blue;
+    background-color: white;
+}
+.hack{
+    display: inline-block;
+    width: 300px;
+    margin-left: 40px;
+}
+.hackp{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ctf{
+    display: inline-block;
+    width: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.ctfp{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.expo{
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+}
+.expop{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hackimg,.expoimg,.ctfimg{
+    border-radius: 30px;
+}
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+}
+.promo iframe{
+    border: none;
+}
+.form{
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    padding-left: 11px;
+    margin-left: 610px;
+    margin-right: 660px;
+    border-radius: 15px;
+}
+.form:hover {
+    color: blue;
+    background-color: white;
+}
+.form {
+    color: white;
+    text-decoration: none;
+    animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Tech Fest</title>
+    <link rel="stylesheet" href="fest.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#event">Events</a></li>
+                <li><a href="#registration">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id = "home"></section>
+    <div class="background"></div>
+    <img class="logo" src="logo.png" alt="image not found"><br>
+    <div class="eventdate">
+        <p>Event Date:10 - 14 August</p>
+    </div><br><br>
+    <center>
+        <video class="promo" autoplay loop muted>
+            <source src="promo.mp4" type="video/mp4" />
+        </video>
+    </center><br><br>
+    <section id = "event"></section>
+<div id="event">
+        <p>Events</p>
+    </div>
+    <a href="hack.html">
+        <div class="hack">
+            <img class="hackimg" src="hack.jpg">
+            <p class="hackp">Hackathon</p>
+        </div>
+    </a>
+    <a href="ctf.html">
+        <div class="ctf">
+            <img class="ctfimg" src="ctf.jpg">
+            <p class="ctfp">Capture the Flag</p>
+        </div>
+    </a>
+    <a href="expo.html">
+        <div class="expo">
+            <img class="expoimg" src="expo.jpg">
+            <p class="expop">Project Expo</p>
+        </div><br><br><br>
+    </a><br>
+    <section id = "registration"></section>
+<a href="form.html" target="_blank">
+    <p class="form">**Registration Form**</p>
+</a><br><br><br>
+<script type="text/javascript"> 
+	function over() 
+	{ 
+		document.getElementById('key').innerHTML= "TECHNOVATION"; 
+	} 
+	function out() 
+	{ 
+		document.getElementById('key').innerHTML= "WELCOME TO"; 
+	} 
+</script> 
+<h3 ALIGN="center" id="key" onmouseover="over()" onmouseout="out()" style="color: rgb(242, 242, 132);"> 
+	GRAND EVENT
+</h3>
+</body>
+</html>
